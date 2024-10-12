@@ -6,6 +6,8 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
 
+  // console.log(import.meta.env.VITE_ACCESS_KEY);  Access the environment variable
+
   return (
     <>
       <div>
